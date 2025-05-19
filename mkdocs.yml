@@ -1,0 +1,9 @@
+site_name: catmcg-pages
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Blog:
+      - "Setting Up a Blog with GitHub Pages": setting-up-a-blog-with-github-pages.md
