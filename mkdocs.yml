@@ -7,5 +7,3 @@ nav:
   - Home: index.md
   - Blog:
       - "Setting Up a Blog with GitHub Pages": setting-up-a-blog-with-github-pages.md
-      - "Creating a Staging Version of Your Wordpress Site on Eco Hosting": create-a-wordpress-staging-site-on-eco-hosting.md
-      - "Deploying Changes From Your Wordpress Staging Site on Eco Hosting": deploying-changes-from-your-wordpress-staging-site.md
