@@ -1,3 +1,13 @@
 # environments
 
-.venv/
+env/
+
+# local dev
+
+local.txt
+
+# MkDocs build output
+/site/
+
+# Byte-code caches
+__pycache__/
