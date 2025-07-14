@@ -5,6 +5,8 @@ env/
 # local dev
 
 local.txt
+drafts/**
+!drafts/.gitkeep
 
 # MkDocs build output
 /site/
