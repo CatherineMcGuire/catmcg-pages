@@ -65,15 +65,23 @@ theme:
 
 nav:
   - Home: index.md
-  - Blog:
-      - "Getting Started": 2025-05-19-first-post.md
 ```
 
 ### 6. Add your first post
 
 Create a file at `docs/2025-05-19-first-post.md` with the contents of this tutorial!
 
-### 7. Preview your site locally
+### 7. Add each post to the navigation menu
+
+nav:
+  - Home: index.md
+  - Blog:
+      - "Getting Started": 2025-05-19-first-post.md
+      - "Another Post": 2025-06-01-another-post.md
+      - "My Latest Post": 2025-07-14-my-latest-post.md
+
+
+### 8. Preview your site locally
 
 ```bash
 mkdocs serve
@@ -81,7 +89,7 @@ mkdocs serve
 
 Visit http://127.0.0.1:8000 in your browser.
 
-### 8. Push to GitHub and deploy
+### 9. Push to GitHub and deploy
 
 1. Create a GitHub repo.
 2. Push your code:
@@ -98,6 +106,8 @@ git push -u origin main
 ```bash
 mkdocs gh-deploy
 ```
+
+This command builds your site and automatically creates or updates a branch named gh-pages that holds the compiled HTML, CSS, and assets. GitHub Pages then serves your site directly from that branch (so you never have to merge your source files into it yourself).
 
 Your site should now be live at `https://your-username.github.io/your-repo-name/`
 
